@@ -1,0 +1,20 @@
+method: grid
+name: gender classification baseline
+metric:
+  goal: minimize
+  name: validation loss
+parameters:
+  dropout:
+    value: 0.5
+  hidden_size:
+    value: 20
+  lr:
+    values: [0.1, 0.01]
+  n_mels:
+    value: 80
+  num_layers:
+    value: 2
+  batch_size:
+    values: [32, 64, 128]
+program: src/train.py
+

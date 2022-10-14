@@ -1,0 +1,12 @@
+/data/
+/.idea/
+.DS_Store
+src/__pycache__
+/gender_classification/
+/gender_classification360/
+/logs/
+/notebooks/
+/src/wandb/
+
+# Project exclude paths
+/wandb/
